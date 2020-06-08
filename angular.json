@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "crm-juin-arondor"
+    }
+  },
+  "defaultProject": "crm-juin-arondor",
+  "cli": {
+    "analytics": "12520cd9-17ce-4bef-9997-e36c929bbc94"
+  }
 }
