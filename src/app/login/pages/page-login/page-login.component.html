@@ -1,0 +1,18 @@
+<app-template-one-col [title]="true">
+
+  <!-- projeted in ng-content select=".title" -->
+  <app-text [colorLight]="true" class="title">
+    <!-- projected in ng-content -->
+    <h1>{{ title }}</h1>
+  </app-text>
+
+  <!-- projected in ng-content select=".contents" -->
+  <app-text class="contents">
+    <!-- projected in ng-content -->
+    <h1>title</h1>
+    <h2>subtitle</h2>
+    <h3>description</h3>
+    <p>A nice paragraph</p>
+  </app-text>
+
+</app-template-one-col>
