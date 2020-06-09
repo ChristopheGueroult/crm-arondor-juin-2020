@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./template-two-col.component.scss']
 })
 export class TemplateTwoColComponent implements OnInit {
-  @Input() title: string;
+  @Input() title: boolean;
   @Input() bgColorTwo: boolean;
   @Input() bgColorThree: boolean;
   constructor() { }

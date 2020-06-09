@@ -1,0 +1,43 @@
+@import 'theme';
+@import 'fonts';
+
+app-text {
+  h1, h2, h3, p, span, li {
+    color: $dark-color;
+  }
+  .color-light {
+    h1, h2, h3, p, span, li {
+      color: $light-color;
+    }
+  }
+  .color-one {
+    h1, h2, h3, p, span, li {
+      color: $color1;
+    }
+  }
+  .color-two {
+    h1, h2, h3, p, span, li {
+      color: $color2;
+    }
+  }
+  .color-three {
+    h1, h2, h3, p, span, li {
+      color: $color3;
+    }
+  }
+
+  h1 {
+    font-size: $h1-fz;
+  }
+  h2 {
+    font-size: $h2-fz;
+  }
+  h3 {
+    font-size: $h3-fz;
+  }
+  p, span, li {
+    font-size: $regular-fz;
+  }
+}
+
+
