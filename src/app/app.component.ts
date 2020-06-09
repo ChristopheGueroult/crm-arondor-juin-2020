@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public title = 'crm-juin-arondor';
+  public navItems: any[];
+  constructor() {
+    this.navItems = [
+      {route: '/login', label: 'Login'},
+      {route: '/orders', label: 'Orders'},
+      {route: '/clients', label: 'Clients'}
+    ];
+  }
 }

@@ -1,0 +1,21 @@
+@import "theme";
+
+a {
+  color: $dark-color;
+  &:hover,
+  &.active {
+    color: $color1;
+  }
+  &.color-light:hover, &.color-light.active {
+    color: $light-color;
+  }
+  &.color-one:hover, &.color-one.active {
+    color: $color1;
+  }
+  &.color-two:hover, &.color-two.active {
+    color: $color2;
+  }
+  &.color-three:hover, &.color-three.active {
+    color: $color3;
+  }
+}

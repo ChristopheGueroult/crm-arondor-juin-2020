@@ -1,1 +1,5 @@
-<p>nav works!</p>
+<ul class="nav" [ngClass]="{'flex-column': vertical}">
+  <li class="nav-item" *ngFor="let item of navItems">
+    <a class="nav-link" [ngClass]="{'color-light': colorLight, 'color-one': colorOne, 'color-two': colorTwo, 'color-three': colorThree}" [routerLink]="item.route" routerLinkActive="active">{{ item.label }}</a>
+  </li>
+</ul>

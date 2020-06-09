@@ -1,7 +1,7 @@
 <app-ui>
   <app-icon-nav class="icon"></app-icon-nav>
   <app-header class="header"></app-header>
-  <app-nav class="nav"></app-nav>
+  <app-nav class="nav" [navItems]="navItems" [vertical]="true"></app-nav>
   <!-- dynamic projection by rooter for pages -->
   <router-outlet class="content"></router-outlet>
   <app-footer class="footer"></app-footer>
