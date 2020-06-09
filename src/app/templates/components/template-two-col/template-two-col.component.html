@@ -1,0 +1,18 @@
+<div class="container">
+
+  <div class="row" *ngIf="title">
+    <div class="col-12 bandeau" [ngClass]="{'bg-color-two': bgColorTwo, 'bg-color-three': bgColorThree}">
+      <h1>{{ title }}</h1>
+    </div>
+  </div>
+
+  <div class="row contents">
+    <div class="col-12 col-sm-6">
+      <ng-content select=".left"></ng-content>
+    </div>
+    <div class="col-12 col-sm-6">
+      <ng-content select=".right"></ng-content>
+    </div>
+  </div>
+
+</div>

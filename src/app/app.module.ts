@@ -8,6 +8,7 @@ import { IconsModule } from './icons/icons.module';
 import { LoginModule } from './login/login.module';
 import { TextModule } from './text/text.module';
 import { UiModule } from './ui/ui.module';
+import { TemplatesModule } from './templates/templates.module';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { UiModule } from './ui/ui.module';
     IconsModule,
     TextModule,
     UiModule,
-    NgbModule
+    NgbModule,
+    TemplatesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
