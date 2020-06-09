@@ -1,0 +1,18 @@
+☐ Interface pour nav component navItem
+☐ page list orders
+☐ enum StateOrders
+☐ interface OrderI
+☐ modèle Order
+☐ install json-server (fake api rest full côté front)
+☐ service Orders
+☐ Appels http et les observable
+☐ TableauLightComponent (strupide)
+☐ Direcitves angular
+☐ Directive perso
+☐ Pipe angular
+☐ Un pipe perso
+☐ BtnComponent (strupide)
+
+☐ TP : page list clients en prenant example sur page list orders
+
+☐ TP ? créer un thème à partir d'une propriété dans un service ?
