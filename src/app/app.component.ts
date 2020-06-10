@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavItemI } from './core/interfaces/nav-item-i';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public navItems: any[];
+  public navItems: NavItemI[];
   constructor() {
     this.navItems = [
       {route: '/login', label: 'Login'},
