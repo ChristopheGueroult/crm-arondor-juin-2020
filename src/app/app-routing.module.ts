@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   {
     path: 'orders',
-    loadChildren: () => import('./orders/orders.module').then(m => m.OrdersModule),
+    loadChildren: () => import('./orders/orders.module').then(m => m.OrdersModule)
   },
   {
     path: 'clients',
@@ -24,7 +24,7 @@ const routes: Routes = [
   imports: [
     RouterModule.forRoot(
       routes, {
-      enableTracing: true, // <-- debugging purposes only
+      enableTracing: false, // <-- debugging purposes only
       preloadingStrategy: PreloadAllModules
     }
     )

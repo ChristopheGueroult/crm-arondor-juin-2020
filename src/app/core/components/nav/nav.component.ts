@@ -13,7 +13,8 @@ export class NavComponent implements OnInit {
   @Input() colorOne: boolean;
   @Input() colorTwo: boolean;
   @Input() colorThree: boolean;
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
