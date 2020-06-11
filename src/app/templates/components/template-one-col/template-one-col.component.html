@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container" [ngClass]="{'bg-color-two': bgColorTwo, 'bg-color-three': bgColorThree}">
 
   <div class="row" *ngIf="title">
-    <div class="col-12 bandeau" [ngClass]="{'bg-color-two': bgColorTwo, 'bg-color-three': bgColorThree}">
+    <div class="col-12 bandeau">
       <ng-content select=".title"></ng-content>
     </div>
   </div>

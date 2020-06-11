@@ -1,0 +1,30 @@
+@import 'theme';
+
+.table-list {
+  .state-canceled {
+    background: $color-error;
+  }
+  .state-option {
+    background: $color1;
+  }
+  .state-confirmed {
+    background: $color-success;
+  }
+}
+
+.bg-color-two {
+  .table-list {
+    .state-option {
+      background: $color2;
+    }
+  }
+}
+.bg-color-three {
+  .table-list {
+    .state-option {
+      background: $color3;
+    }
+  }
+}
+
+

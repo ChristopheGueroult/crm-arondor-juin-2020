@@ -4,16 +4,17 @@
 .bandeau {
   background: $color1;
   padding: $gutter;
-  &.bg-color-two {
-    background: $color2;
-  }
-  &.bg-color-three {
-    background: $color3;
-  }
   h1 {
     margin: 0;
     color: $light-color;
   }
+}
+
+.bg-color-two .bandeau {
+  background: $color2;
+}
+.bg-color-three .bandeau {
+  background: $color3;
 }
 
 .contents {
