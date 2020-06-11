@@ -8,9 +8,10 @@
 ✔ Appels http et les observable @done(20-06-10 12:57)
 ✔ les life cycles @done(20-06-10 13:42)
 ☐ TableauLightComponent (strupide)
-☐ Pipe angular
-☐ Un pipe perso
-☐ Direcitves angular
+✔ Pipe angular @done(20-06-10 16:03)
+✔ Un pipe perso @done(20-06-10 16:03)
+✔ Direcitves angular @done(20-06-10 16:04)
+☐ pipe async
 ☐ Directive perso
 ☐ BtnComponent (strupide)
 
