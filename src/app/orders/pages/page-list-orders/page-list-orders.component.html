@@ -19,6 +19,11 @@
         </td>
       </tr>
     </app-table>
-    <app-btn></app-btn>
+
+    <app-btn [route]="btnRoute.route" [label]="btnRoute.label"></app-btn>
+    <app-btn [href]="btnHref.href" [label]="btnHref.label"></app-btn>
+    <app-btn [action]="btnAction.action" [label]="btnAction.label"></app-btn>
+
   </ng-container>
+
 </app-template-one-col>
