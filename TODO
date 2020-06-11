@@ -7,14 +7,20 @@
 ✔ service Orders @done(20-06-10 12:57)
 ✔ Appels http et les observable @done(20-06-10 12:57)
 ✔ les life cycles @done(20-06-10 13:42)
-☐ TableauLightComponent (strupide)
+✔ TableauLightComponent (strupide) @done(20-06-11 11:06)
 ✔ Pipe angular @done(20-06-10 16:03)
 ✔ Un pipe perso @done(20-06-10 16:03)
 ✔ Direcitves angular @done(20-06-10 16:04)
-☐ pipe async
-☐ Directive perso
-☐ BtnComponent (strupide)
+✔ pipe async @done(20-06-11 11:19)
+✔ Directive perso @done(20-06-11 11:06)
+✔ BtnComponent (strupide) @done(20-06-11 11:06)
 
-☐ TP : page list clients en prenant example sur page list orders
+✔ TP : page list clients en prenant example sur page list orders @done(20-06-11 14:07)
+  ✔ creer un enum state-client (ACTIVE INACTIVE) @done(20-06-11 14:07)
+  ✔ créer l'interface ClientI (voir db.json) @done(20-06-11 14:07)
+  ✔ modèle Client (class) @done(20-06-11 14:07)
+  ✔ service ClientsService @done(20-06-11 14:07)
+  ✔ page list-client (template-one-col, app-text, table, state-directive, btn (clients/add)) @done(20-06-11 14:07)
+  ✔ table scss ajouter les selecteurs .state-active et .state-inactive @done(20-06-11 14:07)
 
 ☐ TP ? créer un thème à partir d'une propriété dans un service ?

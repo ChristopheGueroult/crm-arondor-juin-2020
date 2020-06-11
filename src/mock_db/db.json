@@ -52,6 +52,7 @@
     },
     {
       "state": "INACTIVE",
+      "tva": 20,
       "id": 2,
       "name": "Modis",
       "ca": 120000,

@@ -3,6 +3,7 @@ import { StateOrder } from 'src/app/core/enums/state-order.enum';
 import { Order } from 'src/app/core/models/order';
 import { OrdersService } from '../../services/orders.service';
 import { Btn } from 'src/app/core/interfaces/btn';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-page-list-orders',
@@ -14,16 +15,18 @@ export class PageListOrdersComponent implements OnInit {
   public btnHref: Btn;
   public btnAction: Btn;
   public headers: string[];
-  public collection: Order[];
+  // public collection: Order[];
+  public collection$: Observable<Order[]>;
   public states = Object.values(StateOrder);
   constructor(private os: OrdersService) { }
 
   ngOnInit(): void {
-    this.os.collection.subscribe(
-      (datas) => {
-        this.collection = datas;
-      }
-    );
+    this.collection$ = this.os.collection;
+    // this.os.collection.subscribe(
+    //   (datas) => {
+    //     this.collection = datas;
+    //   }
+    // );
 
     this.headers = [
       'Type',
@@ -44,5 +47,9 @@ export class PageListOrdersComponent implements OnInit {
     this.os.changeState(item, event.target.value).subscribe((res) => {
       item.state = res.state;
     });
+  }
+
+  public popup() {
+    console.log('open popup called');
   }
 }
