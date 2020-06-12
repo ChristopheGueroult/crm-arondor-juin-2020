@@ -1,1 +1,11 @@
-<p>page-add-order works!</p>
+<app-template-one-col [title]="true">
+
+  <app-text class="title" [colorLight]="true">
+    <h1>All Orders</h1>
+  </app-text>
+
+  <ng-container class="contents">
+    <app-form-order [initFormItem]="initFormItem" (submited)="onSubmited($event)"></app-form-order>
+  </ng-container>
+
+</app-template-one-col>

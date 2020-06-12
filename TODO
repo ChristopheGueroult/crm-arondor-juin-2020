@@ -23,4 +23,21 @@
   ✔ page list-client (template-one-col, app-text, table, state-directive, btn (clients/add)) @done(20-06-11 14:07)
   ✔ table scss ajouter les selecteurs .state-active et .state-inactive @done(20-06-11 14:07)
 
+✔ ReactiveFormsModule @done(20-06-11 16:08)
+✔ FormGroup @done(20-06-11 16:08)
+✔ FormControl @done(20-06-11 16:08)
+✔ FormBuilder @done(20-06-11 16:08)
+✔ Binding FormGroup et FormControl avec le html @done(20-06-11 16:08)
+✔ initialiser les FormControl @done(20-06-11 16:08)
+✔ (ngSubmit) @done(20-06-12 08:50)
+✔ @Output() @done(20-06-12 08:50)
+✔ Validators @done(20-06-12 08:51)
+✔ Rendre le bouton d'envoie disabled si Validators invalid @done(20-06-12 08:51)
+✔ Messages d'erreur dans le html @done(20-06-12 08:51)
+✔ Signaux d'erreur grâce au css et aux validateurs @done(20-06-12 08:51)
+
+☐ TP form add client
+☐ TP edit
+☐ TP delete (observable chaud pour la collection)
+
 ☐ TP ? créer un thème à partir d'une propriété dans un service ?
