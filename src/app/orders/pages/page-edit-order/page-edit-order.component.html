@@ -1,11 +1,11 @@
 <app-template-one-col [title]="true">
 
   <app-text class="title" [colorLight]="true">
-    <h1>Add Orders</h1>
+    <h1>Edit Orders</h1>
   </app-text>
 
   <ng-container class="contents">
-    <app-form-order [initFormItem]="initFormItem" (submited)="onSubmited($event)"></app-form-order>
+    <app-form-order *ngIf="item$ | async as initFormItem" [initFormItem]="initFormItem" (submited)="onSubmited($event)"></app-form-order>
   </ng-container>
 
 </app-template-one-col>
